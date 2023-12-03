@@ -11,6 +11,9 @@ class MyApp extends StatelessWidget {
     return     MaterialApp(
     
       title: "Pawan'App",
+      theme: ThemeData(
+        primarySwatch: Colors.teal,
+      ),
     
       home: HomeView(),
     
